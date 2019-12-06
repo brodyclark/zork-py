@@ -200,7 +200,8 @@ def room11(last_inp, item_list):
         if last_inp.lower() == ("open trunk"):
                 print("---------------------------------------------------------")
                 print("You have found the Jade Statue and have completed your quest!")
-                loop = 11
+                print('You Win!')
+                exit()
                 alive_dead = 'Alive'
         elif last.inp.lower() == ("kick the bucket"):
                 print("---------------------------------------------------------")
