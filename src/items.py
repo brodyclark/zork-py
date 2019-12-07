@@ -4,11 +4,11 @@
 room0items = []
 room1items = []
 room2items = []
-room3items = []
-room4items = []
+room13items = ['latern']
+room4items = ['leaflet']
 # ...
 
-allItems = [room0items, room1items, room2items, room3items, room4items]
+allItems = [room0items, room1items, room2items, room13items, room4items]
 
 # Returns item to be added to inventory if it exists in this room and removes it from the list of items in the coom
 def pick_up(itemName, roomNum):
@@ -27,3 +27,6 @@ def put_down(itemName, roomNum):
     return 0
 
 # def useItem()
+
+def useItem(item):
+    print(item)
